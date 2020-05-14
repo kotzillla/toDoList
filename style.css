@@ -64,7 +64,7 @@ form button:hover{
     min-width: 50%;
     list-style: none;
 }
-@media only screen and (max-width: 1040px) {
+@media only screen and (max-width: 970px) {
     * {
         font-size: 10px;
     }
@@ -77,6 +77,9 @@ form button:hover{
     .select
     {
         display: none;
+    }
+    .fa-plus-square{
+        font-size: 2rem;
     }
 }
 

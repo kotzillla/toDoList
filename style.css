@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Consolas", sans-serif;
+    font-family: 'Pangolin', sans-serif;
 }
 
 body{
@@ -68,7 +68,7 @@ form button:hover{
     * {
         font-size: 10px;
     }
-    h1 {
+    h1{
         font-size: 2rem;
     }
     header, form{
@@ -78,9 +78,27 @@ form button:hover{
     {
         display: none;
     }
-    .fa-plus-square{
-        font-size: 2rem;
+    .todo-list{
+        min-width: 80%;
+        list-style: none;
     }
+    .todo-item{
+        font-size: 1.5rem;
+    }
+    .todo-container{
+        margin-top: 1rem;
+    }
+    .todo-button{
+        background: none;
+    }
+    .fa-plus-square{
+        font-size: 3rem;
+    }
+    .todo-button{
+        height: 4rem;
+        width: 4rem;
+    }
+
 }
 
 .todo{

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karina's to do list</title>
+    <script src="https://kit.fontawesome.com/9a7c01f93f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Shopping list for Karina and Sosna</h1>
+    </header>
+    <form>
+        <input type="text" class="todo-input">
+        <button class="todo-button" type="submit">
+            <i class="fas fa-plus-square"></i>
+        </button>
+        <div class="select">
+        <select name="todos" class="filter-todo">
+            <option value="all" class="all">All</option>
+            <option value="completed" class="completed">Bought</option>
+            <option value="uncompleted">To buy</option>  
+        </select>
+        </div>
+    </form>
+    <div class="todo-container">
+        <ul class="todo-list"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
